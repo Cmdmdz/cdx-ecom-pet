@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,14 +16,13 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 
+Route::resource('/', ProductController::class);
 
 Route::get('/register', 'App\Http\Controllers\UserController@create')->name('register.create');
 Route::post('/register', 'App\Http\Controllers\UserController@store')->name('register.store');
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
+
 

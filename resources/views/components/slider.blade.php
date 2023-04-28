@@ -5,7 +5,7 @@
 
             <div class="hero-slide-item swiper-slide">
                 <div class="hero-slide-bg">
-                    <img src="assets/images/slider/slider1-1.png" alt="Slider Image" />
+                    <img src="assets/images/slider/slider1-1.jpg" alt="Slider Image" />
                 </div>
                 <div class="container">
                     <div class="hero-slide-content text-start">
@@ -20,7 +20,7 @@
 
             <div class="hero-slide-item swiper-slide">
                 <div class="hero-slide-bg">
-                    <img src="assets/images/slider/slider1-2.png" alt="Slider Image" />
+                    <img src="assets/images/slider/slider1-2.jpg" alt="Slider Image" />
                 </div>
                 <div class="container">
                     <div class="hero-slide-content text-center text-md-end">
